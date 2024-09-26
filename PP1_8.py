@@ -10,8 +10,8 @@ def q2():
   print(not bool1 == '0')
 
 def q3():
-  bool1 = int(input("Enter a number: "))
-  print(bool1 > 0 and bool1 < 10)
+  bool1 = float(input("Enter a number: "))
+  print(bool1 >= 0 and bool1 <= 10)
 
 def q4():
   bool1 = input("Input food: ")
@@ -20,7 +20,7 @@ def q4():
 
 def q5():
   bool1 = int(input("Enter an integer: "))
-  print(f"The integer {bool1} is {bool1 % 2 == 0}.")
+  print(f'The integer {bool1} is {bool1 % 2 == 0}')
 #Do not edit code after this
 #Comment out the followwing code when running tests
 '''
